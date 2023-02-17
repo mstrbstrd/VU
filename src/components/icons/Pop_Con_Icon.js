@@ -1,11 +1,11 @@
 import React from "react";
 import { SvgIcon } from "@mui/material";
-import { ReactComponent as Popcon } from "./popcon_icon_adobe_express.svg";
+import { ReactComponent as LogoIcon } from "./pop_con_icon_adobe_express.svg";
 
 const Icon = (props) => {
   return (
     <SvgIcon {...props}>
-      <Popcon />
+      <LogoIcon />
     </SvgIcon>
   );
 };

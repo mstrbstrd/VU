@@ -1,7 +1,7 @@
 import React from "react";
 import { Facebook, Instagram, LinkedIn, Twitter } from "@mui/icons-material";
 
-import Icon from "../icons/Popcon.js";
+import Icon from "../icons/Pop_Con_Icon.js";
 
 import { AppBar, Typography, styled, Toolbar, Box } from "@mui/material";
 
