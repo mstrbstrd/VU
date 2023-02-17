@@ -1,4 +1,3 @@
-import React from "react";
 import { Facebook, Instagram, LinkedIn, Twitter } from "@mui/icons-material";
 
 import PopconIcon from "../icons/popcon.js";
