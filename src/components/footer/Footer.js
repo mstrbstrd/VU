@@ -1,7 +1,7 @@
 import React from "react";
 import { Facebook, Instagram, LinkedIn, Twitter } from "@mui/icons-material";
 
-import PopconIcon from "../icons/Popcon.js";
+import Icon from "../icons/Popcon.js";
 
 import { AppBar, Typography, styled, Toolbar, Box } from "@mui/material";
 
@@ -60,7 +60,7 @@ const NavBar = () => {
               color: "white",
             }}
           >
-            Website created by <PopconIcon />
+            Website created by <Icon />
             popular-consulting
           </Typography>
         </MenuBox>
