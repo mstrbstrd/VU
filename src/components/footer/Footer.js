@@ -3,17 +3,7 @@ import { Facebook, Instagram, LinkedIn, Twitter } from "@mui/icons-material";
 
 import PopconIcon from "../icons/popcon.js";
 
-import {
-  AppBar,
-  Typography,
-  styled,
-  Toolbar,
-  Box,
-  InputBase,
-  Menu,
-  MenuItem,
-} from "@mui/material";
-import { Link } from "react-router-dom";
+import { AppBar, Typography, styled, Toolbar, Box } from "@mui/material";
 
 const NavBar = () => {
   const StyledToolbar = styled(Toolbar)({
@@ -32,17 +22,7 @@ const NavBar = () => {
     display: "flex",
     gap: "2.5rem",
   });
-  const SearchBox = styled(Box)({
-    display: "flex",
-    gap: "0.5rem",
-  });
 
-  const MenuItems = [
-    { Name: "About", Link: "/about" },
-    { Name: "Contact", Link: "/contact" },
-  ];
-
-  const [open, setOpen] = React.useState(false);
   return (
     <AppBar
       sx={{

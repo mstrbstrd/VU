@@ -1,6 +1,6 @@
 import "./Map.css";
 
-import { MapContainer, TileLayer, useMap } from "react-leaflet";
+import { MapContainer, TileLayer } from "react-leaflet";
 
 export default function Map() {
   return (

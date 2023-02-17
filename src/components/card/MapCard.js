@@ -2,9 +2,6 @@ import * as React from "react";
 import Map from "../map/Map";
 import Paper from "@mui/material/Paper";
 
-import { MapContainer, TileLayer, useMap } from "react-leaflet";
-import { minWidth } from "@mui/system";
-
 export default function ContactCard() {
   return (
     <Paper

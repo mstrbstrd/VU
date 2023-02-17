@@ -9,8 +9,6 @@ import HeroImage3 from "./imgs/VU_CARD_BG3.jpeg";
 import CovidCard from "./components/card/CovidCard";
 import PatientCard from "./components/card/PatientCard";
 import DoctorCard from "./components/card/DoctorCard";
-import MapCard from "./components/card/MapCard";
-import Contact from "./components/card/Contact";
 import ContactMapContainer from "./components/containers/ContactMapContainer";
 import Footer from "./components/footer/Footer";
 
@@ -42,10 +40,6 @@ const theme = createTheme({
     width: "30%",
     height: "30%",
   },
-});
-
-const theme2 = createTheme({
-  fontFamily: "Barlow Semi Condensed, sans-serif",
 });
 
 function App() {
