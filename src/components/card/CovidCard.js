@@ -10,15 +10,6 @@ import Typography from "@mui/material/Typography";
 // IMAGES
 import img1 from "../../imgs/VU_covid2.png";
 
-const bull = (
-  <Box
-    component="span"
-    sx={{ display: "inline-block", mx: "2px", transform: "scale(0.8)" }}
-  >
-    •
-  </Box>
-);
-
 const card = (
   <React.Fragment>
     <CardMedia

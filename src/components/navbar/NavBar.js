@@ -1,11 +1,4 @@
 import React from "react";
-import {
-  Facebook,
-  Instagram,
-  LinkedIn,
-  Twitter,
-  Waves,
-} from "@mui/icons-material";
 import MenuIcon from "@mui/icons-material/Menu";
 import {
   AppBar,
@@ -22,10 +15,6 @@ const NavBar = () => {
   const StyledToolbar = styled(Toolbar)({
     display: "flex",
     justifyContent: "space-between",
-  });
-  const SocialBox = styled(Box)({
-    display: "flex",
-    gap: "1rem",
   });
   const LogoBox = styled(Box)({
     display: "flex",
@@ -56,12 +45,6 @@ const NavBar = () => {
       position={"static"}
     >
       <StyledToolbar>
-        {/* <SocialBox>
-          <Facebook />
-          <Instagram />
-          <Twitter />
-          <LinkedIn />
-        </SocialBox> */}
         <LogoBox>
           <Typography
             variant="h4"
