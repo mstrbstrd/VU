@@ -58,6 +58,7 @@ const NavBar = () => {
               cursor: "pointer",
               fontFamily: "Barlow Semi Condensed",
               color: "white",
+              fontSize: "12px",
             }}
           >
             Website created by <Icon />
